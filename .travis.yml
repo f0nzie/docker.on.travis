@@ -4,7 +4,7 @@ services:
   - docker
 
 language: r
-cache: packages
+# cache: packages
 
 before_install:
   - "docker pull ubuntu:16.04"
